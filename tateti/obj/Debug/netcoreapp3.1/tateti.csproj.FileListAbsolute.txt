@@ -1,0 +1,14 @@
+C:\Users\matia\source\repos\tateti\tateti\obj\Debug\netcoreapp3.1\tateti.csproj.AssemblyReference.cache
+C:\Users\matia\source\repos\tateti\tateti\obj\Debug\netcoreapp3.1\tateti.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matia\source\repos\tateti\tateti\obj\Debug\netcoreapp3.1\tateti.AssemblyInfoInputs.cache
+C:\Users\matia\source\repos\tateti\tateti\obj\Debug\netcoreapp3.1\tateti.AssemblyInfo.cs
+C:\Users\matia\source\repos\tateti\tateti\obj\Debug\netcoreapp3.1\tateti.csproj.CoreCompileInputs.cache
+C:\Users\matia\source\repos\tateti\tateti\bin\Debug\netcoreapp3.1\tateti.exe
+C:\Users\matia\source\repos\tateti\tateti\bin\Debug\netcoreapp3.1\tateti.deps.json
+C:\Users\matia\source\repos\tateti\tateti\bin\Debug\netcoreapp3.1\tateti.runtimeconfig.json
+C:\Users\matia\source\repos\tateti\tateti\bin\Debug\netcoreapp3.1\tateti.runtimeconfig.dev.json
+C:\Users\matia\source\repos\tateti\tateti\bin\Debug\netcoreapp3.1\tateti.dll
+C:\Users\matia\source\repos\tateti\tateti\bin\Debug\netcoreapp3.1\tateti.pdb
+C:\Users\matia\source\repos\tateti\tateti\obj\Debug\netcoreapp3.1\tateti.dll
+C:\Users\matia\source\repos\tateti\tateti\obj\Debug\netcoreapp3.1\tateti.pdb
+C:\Users\matia\source\repos\tateti\tateti\obj\Debug\netcoreapp3.1\tateti.genruntimeconfig.cache
