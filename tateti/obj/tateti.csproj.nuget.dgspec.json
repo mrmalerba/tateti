@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matia\\source\\repos\\tateti\\tateti\\tateti.csproj": {}
+    "D:\\Proyectos\\Capacitaciones\\broda_tateti\\tateti\\tateti\\tateti.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matia\\source\\repos\\tateti\\tateti\\tateti.csproj": {
+    "D:\\Proyectos\\Capacitaciones\\broda_tateti\\tateti\\tateti\\tateti.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matia\\source\\repos\\tateti\\tateti\\tateti.csproj",
+        "projectUniqueName": "D:\\Proyectos\\Capacitaciones\\broda_tateti\\tateti\\tateti\\tateti.csproj",
         "projectName": "tateti",
-        "projectPath": "C:\\Users\\matia\\source\\repos\\tateti\\tateti\\tateti.csproj",
-        "packagesPath": "C:\\Users\\matia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matia\\source\\repos\\tateti\\tateti\\obj\\",
+        "projectPath": "D:\\Proyectos\\Capacitaciones\\broda_tateti\\tateti\\tateti\\tateti.csproj",
+        "packagesPath": "C:\\Users\\Charango\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyectos\\Capacitaciones\\broda_tateti\\tateti\\tateti\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\matia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Charango\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"

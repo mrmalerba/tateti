@@ -4,6 +4,9 @@ namespace tateti
 {
     class Program
     {
+        //TODO indentacion
+        //TODO encapsular
+        //TODO refactorizar
         static void Main(string[] args)
         {
             string[] cuadros = {"-","-","-","-","-","-","-","-","-"};
@@ -15,7 +18,7 @@ namespace tateti
             {
                 Console.WriteLine("Que columna?(a, b, c): ");
                 string columna = Console.ReadLine();
-
+                //TODO se puede hacer la verificacion de columna y fila antes de verificar la celda ocupada
                 if (columna == "a" || columna == "b" || columna == "c")
                 {
                         Console.WriteLine("Que linea?(1, 2, 3, etc): ");
@@ -24,11 +27,13 @@ namespace tateti
                         if (linea == "1" || linea == "2" || linea == "3") // una vez que cheque la seleccion de columnas y lineas son correctas, chequea las combinaciones y si ya fueron elejidas previamente, si no cambia el item del array por una X.
                         {
                             if (columna == "a" && linea == "1") 
-                            {
+                            {//TODO verificador repetitivo, lo podemos escribir una sola vez y reutilizarlo
                                 if (cuadros[0] == "X" || cuadros[0] == "O")
-                                {
-                                    Console.WriteLine("El cuadro ya esta siendo utilizado! Elejí otro!");
-                                    i--;
+                            {
+                                Console.WriteLine("El cuadro ya esta siendo utilizado! Elejí otro!");
+                                //TODO mensaje un poco mas bonito =)
+                                //Console.WriteLine("El cuadro " + columna + linea + " ya esta siendo utilizado! Elejí otro!");
+                                i--;
                                 }
                                 else
                                 {
@@ -132,8 +137,36 @@ namespace tateti
                                 }
                             }
                             Console.WriteLine($"\nElejiste {columna}-{linea}!: \n\n    a   b   c \n\n      :   :   \n 1  {cuadros[0]} : {cuadros[1]} : {cuadros[2]} \n      :   :   \n   -----------\n      :   :   \n 2  {cuadros[3]} : {cuadros[4]} : {cuadros[5]} \n      :   :   \n   -----------\n      :   :   \n 3  {cuadros[6]} : {cuadros[7]} : {cuadros[8]} \n      :   :   ");
-                        
-                            if ((cuadros[0] == "X" && cuadros[1] == "X" && cuadros[2] == "X") || (cuadros[3] == "X" && cuadros[4] == "X" && cuadros[5] == "X") || (cuadros[6] == "X" && cuadros[7] == "X" && cuadros[8] == "X") || (cuadros[0] == "X" && cuadros[3] == "X" && cuadros[6] == "X") || (cuadros[1] == "X" && cuadros[4] == "X" && cuadros[7] == "X") || (cuadros[2] == "X" && cuadros[5] == "X" && cuadros[8] == "X") || (cuadros[6] == "X" && cuadros[4] == "X" && cuadros[2] == "X") || (cuadros[0] == "X" && cuadros[4] == "X" && cuadros[8] == "X"))
+
+                        //TODO aunque que una sentencia ocupe una sola linea, suele ser mas complicado de leer.
+                        //la linea de arriba tambien podría escribirse en mas lineas y facilitar la lectura del codigo
+                        //aunque particularmente para este caso tambien podríamos encapsularlo y hacerlo aun mas facil de leer
+                        //Console.WriteLine($"\nElejiste {columna}-{linea}!: \n\n" +
+                        //    $"    a   b   c \n\n" +
+                        //    $"      :   :   \n" +
+                        //    $" 1  {cuadros[0]} : {cuadros[1]} : {cuadros[2]} \n" +
+                        //    $"      :   :   \n" +
+                        //    $"   -----------\n" +
+                        //    $"      :   :   \n" +
+                        //    $" 2  {cuadros[3]} : {cuadros[4]} : {cuadros[5]} \n" +
+                        //    $"      :   :   \n" +
+                        //    $"   -----------\n" +
+                        //    $"      :   :   \n" +
+                        //    $" 3  {cuadros[6]} : {cuadros[7]} : {cuadros[8]} \n" +
+                        //    $"      :   :   ");
+
+                        //idem para las condiciones ganadoras
+
+                        //if ((cuadros[0] == "X" && cuadros[1] == "X" && cuadros[2] == "X") ||
+                        //    (cuadros[3] == "X" && cuadros[4] == "X" && cuadros[5] == "X") ||
+                        //    (cuadros[6] == "X" && cuadros[7] == "X" && cuadros[8] == "X") ||
+                        //    (cuadros[0] == "X" && cuadros[3] == "X" && cuadros[6] == "X") ||
+                        //    (cuadros[1] == "X" && cuadros[4] == "X" && cuadros[7] == "X") ||
+                        //    (cuadros[2] == "X" && cuadros[5] == "X" && cuadros[8] == "X") ||
+                        //    (cuadros[6] == "X" && cuadros[4] == "X" && cuadros[2] == "X") ||
+                        //    (cuadros[0] == "X" && cuadros[4] == "X" && cuadros[8] == "X"))
+
+                        if ((cuadros[0] == "X" && cuadros[1] == "X" && cuadros[2] == "X") || (cuadros[3] == "X" && cuadros[4] == "X" && cuadros[5] == "X") || (cuadros[6] == "X" && cuadros[7] == "X" && cuadros[8] == "X") || (cuadros[0] == "X" && cuadros[3] == "X" && cuadros[6] == "X") || (cuadros[1] == "X" && cuadros[4] == "X" && cuadros[7] == "X") || (cuadros[2] == "X" && cuadros[5] == "X" && cuadros[8] == "X") || (cuadros[6] == "X" && cuadros[4] == "X" && cuadros[2] == "X") || (cuadros[0] == "X" && cuadros[4] == "X" && cuadros[8] == "X"))
                         {
                             Console.WriteLine("Ganaste!");
                             Console.WriteLine("Presiona enter para terminar!");
